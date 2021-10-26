@@ -8,4 +8,4 @@ navigate into the folder and open a terminal
 - node data.js -> movie-data.json gets generated
 - node server.js
 
-open the browser at the given port
+open your browser at the given port
