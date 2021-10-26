@@ -7,17 +7,16 @@ const fs = require('fs');
 (async () => {
 
     // 1. download tsv
-    //use these lines of code instead of the ones below to avoid using data.tsv (around 20MB)
-    let file = await fetch('https://cdn.glitch.com/09ca286b-ae66-4ba3-ac0e-da42bc699861%2Fdata.tsv?v=1620661068028'); //await -> weil alles syncron geschehen soll, ohne Callback
-    file = await file.text();
-    //console.log(file);
-    /*
     let file;
     try {
         file = fs.readFileSync('data.tsv', 'utf8')
     }catch (e){
         console.log("error", e);
     }
+    //console.log(file);
+    /*
+    let file = await fetch('https://cdn.glitch.com/09ca286b-ae66-4ba3-ac0e-da42bc699861%2Fdata.tsv?v=1620661068028'); //await -> weil alles syncron geschehen soll, ohne Callback
+    file = await file.text();
     */
 
     // 2. convert tsv to javascript object
