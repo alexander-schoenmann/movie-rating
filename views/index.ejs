@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Vaccination Rate Movie</title>
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+</head>
+<body>
+    <div>
+        Austria's<br>
+        vaccination<br>
+        rate is
+        <!-- escape character from ejs -->
+        <span class="rate"><%= vaccinationRate %>%</span>
+    </div>
+    <div>
+        <img src="<%= movie.image %>">
+    </div>
+    <div>
+        which is the same as the rating of<br>
+        <span class="movie"><%= movie.title %></span>
+    </div>
+</body>
+</html>
