@@ -1,4 +1,4 @@
-# Website and webserver ```movie-rating```
+# Webserver ```movie-rating```
 The current vaccination rate in Austria is compared with movie ratings. The vaccination data comes from the website of the Austrian Ministry of Health, the movie data comes from IMDb. For each rating level, only those film ratings are used which have been rated most frequently.
 
 ## 1 Usage
